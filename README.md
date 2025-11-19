@@ -1,3 +1,16 @@
+# Drone Simulation Project – PX4 + Gazebo
+
+This fork is used for my academic project demonstration.
+
+- Simulator: PX4 SITL + Gazebo Sim 8
+- Model: x500 quadcopter
+- OS: Ubuntu 22.04
+- Command to run the simulation:
+
+```bash
+cd ~/PX4-Autopilot
+make px4_sitl gz_x500
+
 # PX4 Drone Autopilot
 
 [![Releases](https://img.shields.io/github/release/PX4/PX4-Autopilot.svg)](https://github.com/PX4/PX4-Autopilot/releases) [![DOI](https://zenodo.org/badge/22634/PX4/PX4-Autopilot.svg)](https://zenodo.org/badge/latestdoi/22634/PX4/PX4-Autopilot)
